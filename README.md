@@ -8,7 +8,7 @@ MANUAL
 blast.py					Version 1.2	23/04/2019  
         --f1 <fasta/flat>  
 	--f2 <fasta/flat> *opt*  
-	--first <number> *opt, only take first n sequences*  
+	--first number *opt, only take first n sequences*  
 	--contrast *opt,reduces markersize*  
 	--equal *opt,axis ratios equal*  
 	-p image_name *opt,default=noimage*  
