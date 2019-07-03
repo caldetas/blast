@@ -6,7 +6,7 @@ use option -h or --help to get further instructions
 MANUAL  
   
 blast.py					Version 1.2	23/04/2019  
-	--f1 <fasta/flat>  
+        --f1 <fasta/flat>  
 	--f2 <fasta/flat> *opt*  
 	--first <number> *opt, only take first n sequences*  
 	--contrast *opt,reduces markersize*  
