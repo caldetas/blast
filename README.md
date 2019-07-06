@@ -28,7 +28,7 @@ Example blast of two assemblies of the same Bacteria species, using first 20 seq
 ![bacteria flatfile plot](/example/example_bacteria.png)
 
 
-Example of legend.txt from the Bacteria plot
+Example of legend bacteria01_vs_bacteria02.txt from the Bacteria plot
 
 
         contigs x-axis: bacterium01.fa
