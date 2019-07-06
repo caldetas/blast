@@ -1,7 +1,7 @@
 # blast
 Simple plotter able to handle big chromosomes.  
 Use option "-h" or "--help" to get further instructions.  
-If "-p" is specified, png is saved and no graphical interface is opened (serial plotting!).  
+If "-p <image_name>" is specified, png is saved and no graphical interface is opened (serial plotting!).  
 
   
 ## MANUAL  
