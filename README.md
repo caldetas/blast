@@ -28,6 +28,8 @@ Example blast of two assemblies of the same Bacteria species, using first 20 seq
 
 
 Example of legend.txt from the Bacteria plot
+
+
         contigs x-axis: bacterium01.fa
         0 >NODE_118_length_352008_cov_29.228
         1 >NODE_238_length_228980_cov_29.6623
