@@ -19,4 +19,4 @@ use option -h or --help to get further instructions
 ## EXAMPLE
 
 Example blast of 10MB reference chromosome against 10MB assembly contig
-![10_MB_chr](https://github.com/caldetas/blast/blob/master/example/10MB_chromosome_against_new_contig.png)
+![10_MB_chr](https://github.com/caldetas/blast/example/blob/master/10MB_chromosome_against_new_contig.png)
