@@ -19,7 +19,7 @@ use option -h or --help to get further instructions
 ## EXAMPLEs
 
 
-Example blast of 10MB reference chromosome against 10MB assembly contig
+Example blast of 10MB reference chromosome against 10MB assembly contig, using the "--contrast" option
 ![10_MB_chr plot](/example/example_10MB_chr.png)
 
 
