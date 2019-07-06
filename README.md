@@ -1,7 +1,8 @@
 # blast
-simple plotter able to handle big chromosomes,  
-works with python3,  
-use option -h or --help to get further instructions  
+Simple plotter able to handle big chromosomes. 
+Use option "-h" or "--help" to get further instructions
+If "-p" is specified, png is saved and no graphical interface is opened (serial plotting!).
+
   
 ## MANUAL  
 
