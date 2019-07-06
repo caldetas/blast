@@ -16,3 +16,6 @@ use option -h or --help to get further instructions
         -l *opt,create txt with axis legend*
 
 
+## EXAMPLE
+
+[[https://github.com/caldetas/blast/blob/master/10MB_chromosome_against_new_contig.png|alt=example_chr_10MB]]
