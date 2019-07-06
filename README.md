@@ -18,4 +18,4 @@ use option -h or --help to get further instructions
 
 ## EXAMPLE
 
-![alt 10_MB_chr][https://github.com/caldetas/blast/blob/master/10MB_chromosome_against_new_contig.png]
+![10_MB_chr](https://github.com/caldetas/blast/blob/master/10MB_chromosome_against_new_contig.png)
