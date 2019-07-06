@@ -16,7 +16,9 @@ use option -h or --help to get further instructions
         -l *opt,create txt with axis legend*
 
 
-## EXAMPLE
+## EXAMPLEs
 
 Example blast of 10MB reference chromosome against 10MB assembly contig
-![10_MB_chr](/example/example_10MB_chr.png)
+![10_MB_chr plot](/example/example_10MB_chr.png)
+Example blast of two assemblies of the same Bacteria species, using first 20 sequences 
+![bacteria flatfile plot](/example/example_bacteria.png)
