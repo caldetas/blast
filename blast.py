@@ -12,7 +12,7 @@ import getopt
 
 
 #instructions
-form='blast.py\t\t\t\t\tVersion 1.2\t23/04/2019\n\t--f1 <fasta/flat>\n\t--f2 <fasta/flat> *opt*\n\t--first <number> *opt, only take first n sequences*\n\t--contrast *opt,reduces markersize*\n\t--equal *opt,axis ratios equal*\n\t-p image_name *opt,default=noimage*\n\t-w width *opt,sliding window size, default=20*\n\t-l *opt,create txt with axis legend*'
+form='blast.py\t\t\t\t\tVersion 1.3\t01/12/2020\n\t--f1 <fasta/flat>\n\t--f2 <fasta/flat> *opt*\n\t--first <number> *opt, only take first n sequences*\n\t--contrast *opt,reduces markersize*\n\t--equal *opt,axis ratios equal*\n\t-p image_name *opt,default=noimage*\n\t-w width *opt,sliding window size, default=20*\n\t-l *opt,create txt with axis legend*'
 
 def slyce(line, width):
     d = {}
@@ -29,7 +29,6 @@ def slyce(line, width):
 
 def match(line1, line2, width):
     from Bio.Seq import Seq
-    from Bio.Alphabet import generic_dna
     l1 = []
     l2 = []
     d1 = slyce(line1, width)
@@ -37,7 +36,7 @@ def match(line1, line2, width):
 
 
     for i in d1:
-        seq = Seq(i, generic_dna)
+        seq = Seq(i)
         
         #i in d1 and in d2??
         if i in d2:         

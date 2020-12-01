@@ -1,23 +1,24 @@
 # blast
-Simple plotter able to handle big chromosomes.  
+Simple DNA plotter able to handle big chromosomes.  
 Use option "-h" or "--help" to get further instructions.  
 If "-p <image_name>" is specified, png is saved and no graphical interface is opened (serial plotting!).  
 
   
 ## MANUAL  
 
-    blast.py					Version 1.2	23/04/2019
-        --f1 <fasta/flat>
-        --f2 <fasta/flat> *opt*
-        --first <number> *opt, only take first n sequences*
-        --contrast *opt,reduces markersize*
-        --equal *opt,axis ratios equal*
-        -p image_name *opt,default=noimage*
-        -w width *opt,sliding window size, default=20*
-        -l *opt,create txt with axis legend*
+    blast.py					Version 1.3	01/12/2020
+	--f1 <fasta/flat>
+	--f2 <fasta/flat> *opt*
+	--first <number> *opt, only take first n sequences*
+	--contrast *opt,reduces markersize*
+	--equal *opt,axis ratios equal*
+	-p image_name *opt,default=noimage*
+	-w width *opt,sliding window size, default=20*
+	-l *opt,create txt with axis legend*
 
 
-## EXAMPLEs
+
+## EXAMPLES
 
 
 Example blast of 10MB reference chromosome against 10MB assembly contig, using the "--contrast" option
